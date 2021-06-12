@@ -1,0 +1,21 @@
+{
+    "name": "mhmmdq/useragent",
+    "description": "A small package to identify the user's browser",
+    "keywords": ["useragent", "Browser Identification" ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mhmmdqasemi",
+            "email": "mhmdqasemi81@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "Mhmmdq\\": "src/mhmmdq"
+        }
+    },
+    "require": {
+        "php": ">=5.5"
+    }
+}
